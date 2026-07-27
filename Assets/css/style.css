@@ -103,32 +103,17 @@ body{
 }
 
 .hero-image{
-    width:40%;
-    display:flex;
-    justify-content:center;
-}
 
-.hero-placeholder{
-
-    width:420px;
-    height:420px;
-
-    background:white;
-
-    border-radius:25px;
+    width:45%;
 
     display:flex;
+
     justify-content:center;
+
     align-items:center;
 
-    font-size:34px;
-    font-weight:bold;
-
-    color:#55715E;
-
-    box-shadow:0 15px 40px rgba(0,0,0,.08);
-
 }
+
 
 /* =========================
    PRODUCTS
@@ -253,5 +238,15 @@ footer{
     background:white;
 
     margin-top:80px;
+
+}.hero-image img{
+
+    width:100%;
+
+    max-width:500px;
+
+    border-radius:25px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
 
 }
