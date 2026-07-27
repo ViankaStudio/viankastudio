@@ -373,4 +373,60 @@ footer{
 
     line-height:1.8;
 
+}/* =========================
+   CALL TO ACTION
+========================= */
+
+.cta{
+
+    background:#55715E;
+
+    padding:100px 20px;
+
+    text-align:center;
+
+}
+
+.cta-content{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+.cta h2{
+
+    color:white;
+
+    font-size:46px;
+
+    margin-bottom:25px;
+
+}
+
+.cta p{
+
+    color:#EEF3EC;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+}
+
+.cta .btn-primary{
+
+    background:white;
+
+    color:#55715E;
+
+}
+
+.cta .btn-primary:hover{
+
+    background:#EEF3EC;
+
 }
