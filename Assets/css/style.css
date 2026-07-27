@@ -309,4 +309,68 @@ footer{
 
     color:#555;
 
+}/* =========================
+   WHY CHOOSE US
+========================= */
+
+.why{
+
+    padding:100px 80px;
+
+    background:#F8FAF7;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.why-card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.why-icon{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+
+}
+
+.why-card h3{
+
+    color:#55715E;
+
+    margin-bottom:15px;
+
+}
+
+.why-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
 }
