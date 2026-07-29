@@ -2,34 +2,35 @@
 <html lang="id">
 
 <head>
+
+    <!-- Basic -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Vianka Studio | Creative Solutions for Modern Life and Start Your Creative Business Today</title>
+    <title>Vianka Studio | Creative Solutions for Modern Life</title>
 
     <meta name="description"
-        content="Vianka Studio creates digital products, business blueprints, planners, kids birthday printables, and creative resources.">
+        content="Vianka Studio creates premium digital products, business blueprints, planners, kids birthday printables, and creative resources to help you create, learn, and grow.">
 
     <meta name="keywords"
-        content="business blueprint, planner, printable, digital product, Vianka Studio">
+        content="Vianka Studio, digital products, printable, planner, business blueprint, kids birthday, creative resources">
 
     <meta name="author" content="Vianka Studio">
 
-    <link rel="icon" type="image/png" href="Assets/image/favicon.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Assets/image/logo.png">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica+Headline:wght@400;700&family=Mali:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="Assets/css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Finlandica+Headline:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,13 +39,22 @@
 
     <header>
 
-        <nav class="navbar">
+        <nav class="navbar" aria-label="Main Navigation">
 
             <a href="#home" class="logo">
 
-                <img src="Assets/image/logo.png" alt="Vianka Studio Logo">
+                <img
+                    src="Assets/image/logo.png"
+                    alt="Vianka Studio Logo"
+                    loading="lazy">
 
-                <span>Vianka Studio</span>
+                <div class="logo-text">
+
+                    <span>Vianka Studio</span>
+
+                    <small>Creative Solutions</small>
+
+                </div>
 
             </a>
 
@@ -66,138 +76,246 @@
 
     <!-- ================= HERO ================= -->
 
-    <section class="hero" id="home">
+<section class="hero" id="home">
 
-        <div class="container">
+    <div class="hero-overlay"></div>
 
-            <div class="hero-text">
+    <div class="container hero-content">
 
-                <h1>Premium Digital Products for Creative Entrepreneurs</h1>
+        <div class="hero-text">
 
-                <p>
-                    Business blueprints, printable templates,
-kids products and creative resources
-designed to help you learn,
-create and grow.
+            <span class="hero-tag">
 
-                </p>
+            <h1>
+                Creative Solutions
+                for Modern Life
+            </h1>
 
-                <div class="hero-buttons">
+            <p>
+                Premium Business Blueprints,
+                Printable Templates,
+                Kids Products,
+                and Creative Resources
+                designed to help you build
+                your dream business.
+            </p>
 
-                    <a href="#products" class="btn-primary">
-                        Explore Products
-                    </a>
+            <div class="hero-buttons">
 
-                    <a href="#about" class="btn-secondary">
-                        Learn More
-                    </a>
+                <a href="#products" class="btn-primary">
+                    Explore Products
+                </a>
 
-                </div>
-
-            </div>
-
-            <div class="hero-image">
-
-                <img src="Assets/image/hero.png" alt="Hero Image">
+                <a href="#about" class="btn-secondary">
+                    Learn More
+                </a>
 
             </div>
 
         </div>
 
-    </section>
+</section>
 
     <!-- ================= PRODUCTS ================= -->
 
-    <section class="products" id="products">
+<!-- ================= FEATURED PRODUCTS ================= -->
 
-        <div class="container">
+<section class="products" id="products">
 
-            <div class="section-title">
+    <div class="container">
 
-                <h2>Featured Products</h2>
+        <div class="section-title">
 
-                <p>
-                    Explore our collection of creative digital products.
-                </p>
+            <span class="section-subtitle">
+                OUR COLLECTION
+            </span>
 
-            </div>
+            <h2>
+                Featured Products
+            </h2>
 
-            <div class="product-grid">
+            <p>
+                Explore our collection of creative digital products designed
+                to help you learn, create and grow.
+            </p>
 
-                <div class="card">
+        </div>
 
-                    <div class="card-icon">
+        <!-- FILTER -->
 
-<img
-src="Assets/icons/blueprint.png"
-alt="Blueprint Icon">
+        <div class="product-filter">
 
-</div>
+            <button class="active">All Products</button>
 
-                    <h3>Business Blueprint</h3>
+            <button>Business Blueprint</button>
 
-                    <p>
-                        Learn profitable home businesses through practical
-                        step-by-step guides.
-                    </p>
+            <button>Printable Templates</button>
 
-                    <a href="products.html">
-                        View Product →
-                    </a>
+            <button>Kids Products</button>
 
-                </div>
+        </div>
 
-                <div class="card">
+<!-- PRODUCT GRID -->
 
-<div class="card-icon">
+<div class="product-grid">
 
-<img
-src="Assets/icons/birthday.png"
-alt="Birthday Icon">
+    <!-- Product 1 -->
 
-</div>
+    <div class="product-card">
 
-                    <h3>Kids Birthday Bundle</h3>
+        <span class="badge new">NEW</span>
 
-                    <p>
-                        Printable invitations, banners,
-                        thank you cards and party decorations.
-                    </p>
+        <img src="Assets/image/blueprint.png" alt="Business Blueprint">
 
-                    <a href="products.html">
-                        View Product →
-                    </a>
+        <div class="product-content">
 
-                </div>
+            <h3>Business Blueprint</h3>
 
-                <div class="card">
+            <p>
+                Step-by-step guide to start and grow your handmade business.
+            </p>
 
-<div class="card-icon">
+            <div class="product-footer">
 
-<img
-src="Assets/icons/planner.png"
-alt="Planner Icon">
+                <span class="price">
+                    Rp80.000
+                </span>
 
-</div>
-
-                    <h3>Template Collection</h3>
-
-                    <p>
-                        Beautiful planners, calendars,
-                        chore charts and printable templates.
-                    </p>
-
-                    <a href="products.html">
-                        View Product →
-                    </a>
-
-                </div>
+                <a href="#">
+                    View Details →
+                </a>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+    <!-- Product 2 -->
+
+    <div class="product-card">
+
+        <span class="badge bestseller">
+            BEST SELLER
+        </span>
+
+        <img src="Assets/image/printable.png" alt="Printable Templates">
+
+        <div class="product-content">
+
+            <h3>Printable Templates</h3>
+
+            <p>
+                Beautiful printable planner for productivity and daily goals.
+            </p>
+
+            <div class="product-footer">
+
+                <span class="price">
+                    Rp10.000
+                </span>
+
+                <a href="#">
+                    View Details →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Product 3 -->
+
+    <div class="product-card">
+
+        <span class="badge popular">
+            POPULAR
+        </span>
+
+        <img src="Assets/image/kids.png" alt="Kids Birthday Bundle">
+
+        <div class="product-content">
+
+            <h3>Kids Birthday Bundle</h3>
+
+            <p>
+                Printable invitation, banner, thank you card and party supplies.
+            </p>
+
+            <div class="product-footer">
+
+                <span class="price">
+                    Rp10.000 - Rp50.000
+                </span>
+
+                <a href="#">
+                    View Details →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="view-all">
+
+    <a href="products.html" class="btn-outline">
+
+        View All Products →
+
+    </a>
+
+</div>
+
+<div class="product-card">
+
+         <span class="badge popular">POPULAR</span>
+
+         <img src="Assets/image/kids.png" alt="Kids Bundle">
+
+         <div class="product-content"></div>
+
+             <h3>Kids Birthday Bundle</h3>
+
+             <p>
+              Printable invitation, banner, thank you card and party supplies.
+             </p>
+
+             <div class="product-footer">
+
+                 <span class="price">
+                  Rp10.000 - 50.000
+                 </span>
+
+             <a href="#">
+              View Details →
+             </a>
+
+         </div>
+
+     </div>
+
+</div>
+
+<div class="view-all">
+
+    <a href="products.html" class="btn-outline">
+
+        View All Products →
+
+    </a>
+
+</div>
+
+</div>
+
+</section>
+
+
 
     <!-- ================= ABOUT ================= -->
 
@@ -207,7 +325,10 @@ alt="Planner Icon">
 
             <div class="about-image">
 
-                <img src="Assets/image/about.png" alt="About Vianka Studio">
+                <img
+                    src="Assets/image/about.png"
+                    alt="About Vianka Studio"
+                    loading="lazy">
 
             </div>
 
@@ -216,14 +337,16 @@ alt="Planner Icon">
                 <h2>About Vianka Studio</h2>
 
                 <p>
-                    Vianka Studio is an independent creative brand focused on
-                    digital products, business blueprints,
-                    children's products and printable resources.
+                    Vianka Studio is an independent creative brand dedicated to
+                    developing premium digital products, practical business
+                    blueprints, printable templates, kids products,
+                    and creative resources.
                 </p>
 
                 <p>
-                    Our mission is to help people create, learn and grow through
-                    beautiful, practical and easy-to-use creative products.
+                    Our mission is to help creators, entrepreneurs,
+                    and families create, learn, and grow through
+                    practical, beautiful, and easy-to-use products.
                 </p>
 
                 <a href="#products" class="btn-primary">
@@ -236,7 +359,7 @@ alt="Planner Icon">
 
     </section>
 
-    <!-- ================= WHY ================= -->
+    <!-- ================= WHY CHOOSE US ================= -->
 
     <section class="why" id="why">
 
@@ -247,8 +370,9 @@ alt="Planner Icon">
                 <h2>Why Choose Vianka Studio?</h2>
 
                 <p>
-                    Everything we create is designed to help you create,
-                    learn and grow with confidence.
+                    Every product is carefully designed to provide
+                    practical value, beautiful design, and an enjoyable
+                    learning experience.
                 </p>
 
             </div>
@@ -257,57 +381,64 @@ alt="Planner Icon">
 
                 <div class="why-card">
 
-<img
-src="Assets/icons/creative.svg"
-alt="Creative">
+                    <img
+                        src="Assets/icons/creative.svg"
+                        alt="Creative Ideas"
+                        loading="lazy">
 
                     <h3>Creative Ideas</h3>
 
                     <p>
-                        Original products created with creativity and attention
-                        to detail.
+                        Original products developed with creativity,
+                        innovation, and attention to every detail.
                     </p>
 
                 </div>
 
                 <div class="why-card">
 
-<img
-src="Assets/icons/beginner.svg"
-alt="Beginner">
+                    <img
+                        src="Assets/icons/beginner.svg"
+                        alt="Beginner Friendly"
+                        loading="lazy">
 
                     <h3>Beginner Friendly</h3>
 
                     <p>
-                        Easy to understand even if you are just starting.
+                        Clear and easy-to-follow resources,
+                        perfect for beginners and experienced users alike.
                     </p>
 
                 </div>
 
                 <div class="why-card">
 
-<img
-src="Assets/icons/quality.svg"
-alt="Quality">
+                    <img
+                        src="Assets/icons/quality.svg"
+                        alt="Premium Quality"
+                        loading="lazy">
 
-                    <h3>High Quality</h3>
+                    <h3>Premium Quality</h3>
 
                     <p>
-                        Carefully designed products with premium quality.
+                        Carefully crafted products with modern,
+                        clean, and professional designs.
                     </p>
 
                 </div>
 
                 <div class="why-card">
 
-<img
-src="Assets/icons/support.svg"
-alt="Support">
+                    <img
+                        src="Assets/icons/support.svg"
+                        alt="Lifetime Access"
+                        loading="lazy">
 
                     <h3>Lifetime Access</h3>
 
                     <p>
-                        Download once and use anytime.
+                        Purchase once and enjoy unlimited access
+                        to your digital downloads anytime.
                     </p>
 
                 </div>
@@ -318,7 +449,7 @@ alt="Support">
 
     </section>
 
-    <!-- ================= CTA ================= -->
+    <!-- ================= CALL TO ACTION ================= -->
 
     <section class="cta">
 
@@ -331,9 +462,12 @@ alt="Support">
                 </h2>
 
                 <p>
-                    Discover business blueprints, planners,
-                    printables and creative resources designed
-                    to help you succeed.
+                    Discover business blueprints,
+                    printable templates,
+                    planners,
+                    and creative resources designed
+                    to help you create, learn,
+                    and grow with confidence.
                 </p>
 
                 <a href="#products" class="btn-primary">
@@ -357,16 +491,20 @@ alt="Support">
                 <h2>Frequently Asked Questions</h2>
 
                 <p>
-                    Find answers to the most common questions.
+                    Here are some of the questions we receive most often.
                 </p>
 
             </div>
 
             <div class="faq-container">
 
+                <!-- FAQ 1 -->
+
                 <div class="faq-item">
 
-                    <button class="faq-question">
+                    <button
+                        class="faq-question"
+                        type="button">
 
                         What is a Business Blueprint?
 
@@ -377,19 +515,24 @@ alt="Support">
                     <div class="faq-answer">
 
                         <p>
-                            A Business Blueprint is a practical guide that helps
-                            you build a business step by step.
+                            A Business Blueprint is a practical,
+                            step-by-step guide designed to help you
+                            start and grow a business from home.
                         </p>
 
                     </div>
 
                 </div>
 
+                <!-- FAQ 2 -->
+
                 <div class="faq-item">
 
-                    <button class="faq-question">
+                    <button
+                        class="faq-question"
+                        type="button">
 
-                        Can I download immediately?
+                        Can I download my products immediately?
 
                         <span>+</span>
 
@@ -398,19 +541,24 @@ alt="Support">
                     <div class="faq-answer">
 
                         <p>
-                            Yes. All digital products can be downloaded after
-                            successful payment.
+                            Yes. After your payment is successfully completed,
+                            you will receive instant access to download
+                            your digital products.
                         </p>
 
                     </div>
 
                 </div>
 
+                <!-- FAQ 3 -->
+
                 <div class="faq-item">
 
-                    <button class="faq-question">
+                    <button
+                        class="faq-question"
+                        type="button">
 
-                        Are updates included?
+                        Will I receive future updates?
 
                         <span>+</span>
 
@@ -419,7 +567,35 @@ alt="Support">
                     <div class="faq-answer">
 
                         <p>
-                            Some products include free updates.
+                            Selected products include free updates.
+                            Please check each product description
+                            for complete details.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- FAQ 4 -->
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button">
+
+                        How can I contact Vianka Studio?
+
+                        <span>+</span>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            You can contact us through the Contact section
+                            or by sending an email to
+                            <strong>viankastudio@gmail.com</strong>.
                         </p>
 
                     </div>
@@ -440,13 +616,99 @@ alt="Support">
 
             <div class="section-title">
 
-                <h2>Contact</h2>
-
-                <p>viankastudio@gmail.com</p>
+                <h2>Get In Touch</h2>
 
                 <p>
-                    Follow Vianka Studio for updates and new products.
+                    Have questions about our products or need assistance?
+                    We'd love to hear from you.
                 </p>
+
+            </div>
+
+            <div class="contact-grid">
+
+                <!-- Email -->
+
+                <div class="contact-card">
+
+                    <img
+                        src="Assets/icons/email.svg"
+                        alt="Email"
+                        loading="lazy">
+
+                    <h3>Email</h3>
+
+                    <a href="mailto:viankastudio@gmail.com">
+                        viankastudio@gmail.com
+                    </a>
+
+                </div>
+
+                <!-- Instagram -->
+
+                <div class="contact-card">
+
+                    <img
+                        src="Assets/icons/instagram.svg"
+                        alt="Instagram"
+                        loading="lazy">
+
+                    <h3>Instagram</h3>
+
+                    <a
+                        href="https://instagram.com/viankastudio"
+                        target="_blank"
+                        rel="noopener">
+
+                        @viankastudio
+
+                    </a>
+
+                </div>
+
+                <!-- Lynk -->
+
+                <div class="contact-card">
+
+                    <img
+                        src="Assets/icons/link.svg"
+                        alt="Lynk"
+                        loading="lazy">
+
+                    <h3>Lynk Store</h3>
+
+                    <a
+                        href="https://lynk.id/viankastudio"
+                        target="_blank"
+                        rel="noopener">
+
+                        Visit Store
+
+                    </a>
+
+                </div>
+
+                <!-- WhatsApp -->
+
+                <div class="contact-card">
+
+                    <img
+                        src="Assets/icons/whatsapp.svg"
+                        alt="WhatsApp"
+                        loading="lazy">
+
+                    <h3>WhatsApp</h3>
+
+                    <a
+                        href="https://wa.me/6285128029810"
+                        target="_blank"
+                        rel="noopener">
+
+                        Chat with Us
+
+                    </a>
+
+                </div>
 
             </div>
 
@@ -458,13 +720,47 @@ alt="Support">
 
     <footer>
 
-        <div class="container">
+        <div class="container footer-content">
 
-            <p>
+            <div class="footer-logo">
 
-                © 2026 Vianka Studio. All Rights Reserved.
+                <img
+                    src="Assets/image/logo.png"
+                    alt="Vianka Studio Logo"
+                    loading="lazy">
 
-            </p>
+                <div>
+
+                    <h3>Vianka Studio</h3>
+
+                    <p>Creative Solutions for Modern Life</p>
+
+                </div>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#products">Products</a>
+
+                <a href="#about">About</a>
+
+                <a href="#faq">FAQ</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="footer-copy">
+
+                <p>
+                    © 2026 Vianka Studio.
+                    All Rights Reserved.
+                </p>
+
+            </div>
 
         </div>
 
